@@ -15,14 +15,3 @@ shapiro.test(CT_L_blood_day1)
 paired_wilcox_results_S <- wilcox.test(CT_S_CSF_day1, CT_S_blood_day1, paired = TRUE)
 paired_wilcox_results_L <- wilcox.test(CT_L_CSF_day1, CT_L_blood_day1, paired = TRUE)
 
-
-
-
-
-
-attach(day1_pairs_comparison)
-shapiro.test(CT_S_CSF_day1)
-shapiro.test(CT_L_CSF_day1)
-shapiro.test(CT_S_blood_day1)
-shapiro.test(CT_L_blood_day1)
-
